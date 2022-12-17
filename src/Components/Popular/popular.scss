@@ -1,0 +1,56 @@
+:root {
+  --PrimaryColor: hsl(26, 93%, 50%);
+  --HoverColor: hsl(26, 90%, 42%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyBg: hsl(0, 0%, 96%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  // boxShadow:box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.45);
+}
+
+.popular {
+  .secContainer {
+    .secIntro {
+      .secTitle {
+        color: #fff;
+      }
+    }
+  }
+
+  .LineUP {
+    .titleLineUP {
+      font-weight: 600;
+      font-size: 48px;
+      color: #fff;
+      align-items: center;
+
+      .image_wrapper {
+        padding-top: 7px;
+        .image_wrapper img {
+          width: 80%;
+        }
+      }
+      .artis1 {
+        background-color: rgba(239, 227, 197);
+        color: rgba(231, 67, 36);
+      }
+      .artis2 {
+        background-color: rgba(40, 88, 168);
+        color: rgba(239, 227, 197);
+      }
+
+      .artis3 {
+        background-color: rgba(231, 67, 36);
+        color: rgba(239, 227, 197);
+      }
+
+      .artis4 {
+        background-color: rgba(40, 88, 168);
+        color: rgba(225, 170, 37);
+      }
+    }
+  }
+}
