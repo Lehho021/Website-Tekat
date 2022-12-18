@@ -1,4 +1,5 @@
 import "./app.css";
+// import { RequireAuth } from "react-auth-kit";
 import Navbar from "./Components/Navbar/Navbar";
 import Popular from "./Components/Popular/Popular";
 import Home from "./Components/Home/Home";
@@ -19,6 +20,8 @@ import {
 import News1 from "./Components/Pages/News1/News1";
 import News2 from "./Components/Pages/News2/News2";
 import News3 from "./Components/Pages/News3/News3";
+import Login from "./Components/Auth/Login/Login";
+import Register from "./Components/Auth/Register/Register";
 
 function App() {
   return (
@@ -33,6 +36,8 @@ function App() {
             <Route component={Information} path="/information" />
             <Route component={Faq} path="/faq" />
           </Switch>
+          <Route component={Login} path="/login" />
+          <Route component={Register} path="/register" />
           <Route component={Popular} path="/" exact />
           <Route component={Blog} path="/" exact />
           <Route component={Offers} path="/" exact />

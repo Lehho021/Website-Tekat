@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import { GiTicket } from "react-icons/gi";
+// import logo from "../../Assets/logo.jpg";
+// import { GiTicket } from "react-icons/gi";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { TbGridDots } from "react-icons/tb";
 import { Link } from "react-router-dom";
-import logo from "../../Assets/logo.jpg";
 
 //Show Navbar
 const Navbar = () => {
@@ -74,9 +74,9 @@ const Navbar = () => {
         <div className={active}>
           <ul className="navListss flex">
             <li className="navItemm">
-              <Link to="/" className="navLink">
+              <a href="/login" className="navLink">
                 LOGIN
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

@@ -13,7 +13,7 @@ const Offer = [
   },
 
   {
-    price: "TEKAT IS BACK OFFLINE",
+    price: "KAMU BERTANYA_TANYA",
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quam!",
   },
 
