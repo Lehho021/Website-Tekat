@@ -13,9 +13,14 @@ const Offer = [
   },
 
   {
+<<<<<<< HEAD
     price: "WHAT WILL I SEE INSIDE THE FESTIVAL?",
     text: "More than just music! There’s also good food and interesting activities inside the festival!",
     text1: "Bukan hanya sekadar musik. Kalian juga akan menemukan makanan dan juga aktifitas menarik di dalam area festival.",
+=======
+    price: "KAMU BERTANYA_TANYA",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quam!",
+>>>>>>> cef43a9ea2848e38f0458b1ad9289df362bfd894
   },
 
   {
@@ -31,9 +36,14 @@ const Offer = [
   },
 
   {
+<<<<<<< HEAD
     price: "SO CAN I BRING VIDEO CAMERA IN TOO?",
     text: "Professional broadcast video camera are not allowed",
     text1: "Dilarang membawa jenis video kamera profesional yang biasa digunakan untuk kualitas siaran TV.",
+=======
+    price: "KAMU BERTANYA-TANYA KAH MANIS?",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quam!",
+>>>>>>> cef43a9ea2848e38f0458b1ad9289df362bfd894
   },
 
   {
