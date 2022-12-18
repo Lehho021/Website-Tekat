@@ -28,7 +28,7 @@ const Offer = [
   },
 
   {
-    price: "KAMU NANYA",
+    price: "KAMU BERTANYA-TANYA KAH MANIS?",
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quam!",
   },
 
