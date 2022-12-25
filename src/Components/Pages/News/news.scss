@@ -14,7 +14,7 @@
 .news {
   .secContainer {
     .secTitle{
-      color: #fff;
+      color: whitesmoke;
       padding-top: 5rem;
     }
     .mainContent {
@@ -24,12 +24,17 @@
         border-radius: 1rem;
         overflow: hidden;
         padding: 0.5rem;
+        border: 1.5px solid #59a4d9;
         box-shadow: 0 0 6px 0.75px #ba6c90;
+
+        .icon {
+          font-size: 20px;
+          color: var(--textColor);
+        }
 
         small {
           font-weight: 500;
-          color: black;
-          background-color: #fff;
+          color: whitesmoke;
         } 
 
         .newsImage {
@@ -44,30 +49,20 @@
           }
         }
 
-        .newsBody {
+        .offersBody {
+          
           padding: 1rem;
 
-          .newsTitle {
-            justify-content: space-between;
-
-            h4 {
-              color: #fff;
-              font-weight: 700;
-              font-size: 1.1rem;
-            }
-          }
-
-          .newsAmenities {
+          .amenities {
             width: 100%;
             flex-wrap: wrap;
             justify-content: flex-start;
             padding: 1rem 0;
             gap: 0.5rem;
 
-            .singleNews {
+            .singleAmenity {
               padding: 5px 10px;
-              border-radius: 5px;
-              background: var(--greyBg);
+              background: black;
               gap: 0.5rem;
             }
           }
@@ -78,21 +73,20 @@
             text-align: center;
             justify-content: center;
             padding: 0.6rem;
-            color: var(--whiteColor);
-            background-color: black;
-            box-shadow: 0 0 6px 0.75px #ba6c90;
+            color: whitesmoke;
             font-weight: 600;
             gap: 0.5rem;
-            
+            background-color: black;
+
             .icon {
-              color: var(--whiteColor);
+              color: whitesmoke;
+              background-color: black;
             }
           }
         }
 
         &:hover {
-          transform: translateY(-10px);
-          transition: 0.3s;
+          transform: translateY(-7px);
         }
       }
     }
