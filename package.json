@@ -18,7 +18,11 @@
     "react-fast-marquee": "^1.3.5",
     "react-icons": "^4.7.1",
     "react-router-dom": "^5.3.4",
+<<<<<<< HEAD
     "react-scripts": "5.0.1",
+=======
+    "react-scripts": "^5.0.1",
+>>>>>>> ec84d5a68a87bd4695e395b5460c875ab7504381
     "web-vitals": "^2.1.4"
   },
   "scripts": {
