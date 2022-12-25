@@ -1,1 +1,82 @@
-/*# sourceMappingURL=register.css.map */
+:root {
+  --PrimaryColor: hsl(26, 93%, 50%);
+  --HoverColor: hsl(26, 90%, 42%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyBg: hsl(0, 0%, 96%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  --boxShadow: box-shadow:0 2px 8px 2px rgba(178, 178, 178, 0.189);
+}
+
+.register .secContainer .secTitle {
+  color: whitesmoke;
+  padding-top: 5rem;
+}
+.register .secContainer .mainContent {
+  gap: 1rem;
+}
+.register .secContainer .mainContent .singleLogin .halaman-login h1 {
+  color: whitesmoke;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.register .secContainer .mainContent .singleLogin .halaman-login p {
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.register .secContainer .mainContent .singleLogin .halaman-login p a {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+.register .secContainer form .email {
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  flex-direction: column;
+}
+.register .secContainer form .email label {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-weight: 500;
+}
+.register .secContainer form .email input {
+  display: flex;
+  border: 3px solid;
+  background-color: whitesmoke;
+}
+.register .secContainer form .password {
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  flex-direction: column;
+}
+.register .secContainer form .password label {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-weight: 500;
+}
+.register .secContainer form .password input {
+  display: flex;
+  border: 3px solid;
+  background-color: whitesmoke;
+}
+.register .secContainer form .tombol-login {
+  color: white;
+  border: 1px solid #0076D7;
+  background-color: #0069D9;
+  width: 100%;
+  padding: 20px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.register .secContainer form .tombol-login:hover {
+  background-color: #0076D7;
+}/*# sourceMappingURL=register.css.map */

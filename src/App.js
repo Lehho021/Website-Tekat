@@ -22,6 +22,7 @@ import News2 from "./Components/Pages/News2/News2";
 import News3 from "./Components/Pages/News3/News3";
 import Login from "./Components/Auth/Login/Login";
 import Register from "./Components/Auth/Register/Register";
+import { AuthContextProvider } from "./Components/Context/AuthContext";
 
 function App() {
   return (
@@ -36,8 +37,10 @@ function App() {
             <Route component={Information} path="/information" />
             <Route component={Faq} path="/faq" />
           </Switch>
-          <Route component={Login} path="/login" />
-          <Route component={Register} path="/register" />
+          <AuthContextProvider>
+            <Route component={Login} path="/login" />
+            <Route component={Register} path="/register" />
+          </AuthContextProvider>
           <Route component={Popular} path="/" exact />
           <Route component={Blog} path="/" exact />
           <Route component={Offers} path="/" exact />

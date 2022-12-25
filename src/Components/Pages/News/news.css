@@ -12,7 +12,7 @@
 }
 
 .news .secContainer .secTitle {
-  color: #fff;
+  color: whitesmoke;
   padding-top: 5rem;
 }
 .news .secContainer .mainContent {
@@ -22,12 +22,16 @@
   border-radius: 1rem;
   overflow: hidden;
   padding: 0.5rem;
+  border: 1.5px solid #59a4d9;
   box-shadow: 0 0 6px 0.75px #ba6c90;
+}
+.news .secContainer .mainContent .singleNews .icon {
+  font-size: 20px;
+  color: var(--textColor);
 }
 .news .secContainer .mainContent .singleNews small {
   font-weight: 500;
-  color: black;
-  background-color: #fff;
+  color: whitesmoke;
 }
 .news .secContainer .mainContent .singleNews .newsImage {
   position: relative;
@@ -39,46 +43,36 @@
 .news .secContainer .mainContent .singleNews .newsImage img {
   height: 100%;
 }
-.news .secContainer .mainContent .singleNews .newsBody {
+.news .secContainer .mainContent .singleNews .offersBody {
   padding: 1rem;
 }
-.news .secContainer .mainContent .singleNews .newsBody .newsTitle {
-  justify-content: space-between;
-}
-.news .secContainer .mainContent .singleNews .newsBody .newsTitle h4 {
-  color: #fff;
-  font-weight: 700;
-  font-size: 1.1rem;
-}
-.news .secContainer .mainContent .singleNews .newsBody .newsAmenities {
+.news .secContainer .mainContent .singleNews .offersBody .amenities {
   width: 100%;
   flex-wrap: wrap;
   justify-content: flex-start;
   padding: 1rem 0;
   gap: 0.5rem;
 }
-.news .secContainer .mainContent .singleNews .newsBody .newsAmenities .singleNews {
+.news .secContainer .mainContent .singleNews .offersBody .amenities .singleAmenity {
   padding: 5px 10px;
-  border-radius: 5px;
-  background: var(--greyBg);
+  background: black;
   gap: 0.5rem;
 }
-.news .secContainer .mainContent .singleNews .newsBody .btn {
+.news .secContainer .mainContent .singleNews .offersBody .btn {
   margin-top: 1rem;
   width: 100%;
   text-align: center;
   justify-content: center;
   padding: 0.6rem;
-  color: var(--whiteColor);
-  background-color: black;
-  box-shadow: 0 0 6px 0.75px #ba6c90;
+  color: whitesmoke;
   font-weight: 600;
   gap: 0.5rem;
+  background-color: black;
 }
-.news .secContainer .mainContent .singleNews .newsBody .btn .icon {
-  color: var(--whiteColor);
+.news .secContainer .mainContent .singleNews .offersBody .btn .icon {
+  color: whitesmoke;
+  background-color: black;
 }
 .news .secContainer .mainContent .singleNews:hover {
-  transform: translateY(-10px);
-  transition: 0.3s;
+  transform: translateY(-7px);
 }/*# sourceMappingURL=news.css.map */
