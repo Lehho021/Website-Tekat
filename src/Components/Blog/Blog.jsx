@@ -16,19 +16,19 @@ const Posts = [
     id: 1,
     postImage: img,
     title: "Joylands",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, modi!",
+    desc: "Joyland Festival 2023, bukan Festival yang ‘Itu-Itu Aja’. Joyland dan nama itu memang benar-benar mewakili apa yang kami rasakan selama tiga hari menghadiri salah satu festival musik garapan Plainsong Live tersebut.",
   },
   {
     id: 2,
     postImage: img2,
     title: "Pesta Pora",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, modi!",
+    desc: "Pestapora adalah selebrasi terbaru pertunjukan musik Indonesia, yang diselenggarakan oleh Boss Creator. Perayaan musik pertama ini akan hadir selama tiga hari.",
   },
   {
     id: 3,
     postImage: img3,
     title: "DWP",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, modi!",
+    desc: "One of the biggest dance music festivals in Asia is back! Djakarta Warehouse Project will return on 9, 10, 11 Dec 2022 at JIEXPO Kemayoran.",
   },
 ];
 
