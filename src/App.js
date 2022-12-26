@@ -26,32 +26,32 @@ import { AuthContextProvider } from "./Components/Context/AuthContext";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Router>
-        <div className="App">
-          <Navbar />
-          <Switch>
-            <Route component={Home} path="/" exact />
-            <Route component={LineUP} path="/lineup" />
-            <Route component={News} path="/news" />
-            <Route component={Information} path="/information" />
-            <Route component={Faq} path="/faq" />
-          </Switch>
-          <AuthContextProvider>
-            <Route component={Login} path="/login" />
-            <Route component={Register} path="/register" />
-          </AuthContextProvider>
-          <Route component={Popular} path="/" exact />
-          <Route component={Blog} path="/" exact />
-          <Route component={Offers} path="/" exact />
-          <Route component={About} path="/" exact />
-          <Route component={News1} path="/news1" />
-          <Route component={News2} path="/news2" />
-          <Route component={News3} path="/news3" />
-          <Footer />
-        </div>
-      </Router>
-    </BrowserRouter>
+    <AuthContextProvider>
+      <BrowserRouter>
+        <Router>
+          <div className="App">
+            <Navbar />
+            <Switch>
+              <Route component={Login} path="/login" />
+              <Route component={Register} path="/register" />
+              <Route component={Home} path="/" exact />
+              <Route component={LineUP} path="/lineup" />
+              <Route component={News} path="/news" />
+              <Route component={Information} path="/information" />
+              <Route component={Faq} path="/faq" />
+            </Switch>
+            <Route component={Popular} path="/" exact />
+            <Route component={Blog} path="/" exact />
+            <Route component={Offers} path="/" exact />
+            <Route component={About} path="/" exact />
+            <Route component={News1} path="/news1" />
+            <Route component={News2} path="/news2" />
+            <Route component={News3} path="/news3" />
+            <Footer />
+          </div>
+        </Router>
+      </BrowserRouter>
+    </AuthContextProvider>
   );
 }
 

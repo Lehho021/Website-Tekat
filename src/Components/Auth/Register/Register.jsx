@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./register.css";
+
 import { UserAuth } from "../../Context/AuthContext";
 
 const Register = () => {
@@ -15,8 +16,8 @@ const Register = () => {
     try {
       await createUser(email, password);
     } catch (e) {
-      setError(e.message);
       console.log(e.message);
+      setError("Terjadi kesalahan pada pembuatan akun baru");
     }
   };
 

@@ -11,6 +11,9 @@
   --boxShadow: box-shadow:0 2px 8px 2px rgba(178, 178, 178, 0.189);
 }
 
+.offers .secContainer .secTitle {
+  color: whitesmoke;
+}
 .offers .secContainer .mainContent {
   gap: 1rem;
 }
@@ -18,7 +21,9 @@
   border-radius: 1rem;
   overflow: hidden;
   padding: 0.5rem;
-  box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.189);
+  border-radius: 1rem;
+  border: 1.5px solid #59a4d9;
+  box-shadow: 0 0 6px 0.75px #ba6c90;
 }
 .offers .secContainer .mainContent .singleOffers .icon {
   font-size: 20px;
@@ -26,7 +31,7 @@
 }
 .offers .secContainer .mainContent .singleOffers small {
   font-weight: 500;
-  color: var(--textColor);
+  color: whitesmoke;
 }
 .offers .secContainer .mainContent .singleOffers .concertImage {
   position: relative;
@@ -37,17 +42,6 @@
 }
 .offers .secContainer .mainContent .singleOffers .concertImage img {
   height: 100%;
-}
-.offers .secContainer .mainContent .singleOffers .concertImage .discount {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 5px 10px;
-  background: var(--PrimaryColor);
-  color: var(--whiteColor);
-  border-radius: 3rem;
-  font-size: 10px;
-  font-weight: 500;
 }
 .offers .secContainer .mainContent .singleOffers .offersBody {
   padding: 1rem;
@@ -87,7 +81,8 @@
   text-align: center;
   justify-content: center;
   padding: 0.6rem;
-  color: var(--whiteColor);
+  color: whitesmoke;
+  background-color: black;
   font-weight: 600;
   gap: 0.5rem;
 }
