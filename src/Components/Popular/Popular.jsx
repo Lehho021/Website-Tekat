@@ -38,7 +38,7 @@ const Popular = () => {
               <div className="image_wrapper flex">
                 <img src={marque3} alt="" />
               </div>
-              <p className="artis3">GEISHA</p>
+              <p className="artis3">TIARA</p>
             </div>
           </div>
           <div className="LineUP">
@@ -46,7 +46,7 @@ const Popular = () => {
               <div className="image_wrapper flex">
                 <img src={marque2} alt="" />
               </div>
-              <p className="artis4">DISKORIA</p>
+              <p className="artis4">BRIAN</p>
             </div>
           </div>
           <div className="LineUP">
@@ -54,7 +54,7 @@ const Popular = () => {
               <div className="image_wrapper flex">
                 <img src={marque4} alt="" />
               </div>
-              <div className="artis1">KOTAK</div>
+              <div className="artis1">PAMUNGKAS</div>
             </div>
           </div>
           <div className="LineUP">
@@ -62,7 +62,7 @@ const Popular = () => {
               <div className="image_wrapper flex">
                 <img src={marque3} alt="" />
               </div>
-              <p className="artis2">JASON RANTI</p>
+              <p className="artis2">HINDIA</p>
             </div>
           </div>
           <div className="LineUP">
@@ -70,7 +70,7 @@ const Popular = () => {
               <div className="image_wrapper flex">
                 <img src={marque2} alt="" />
               </div>
-              <p className="artis3">PROJECT POP</p>
+              <p className="artis3">ARIEL</p>
             </div>
           </div>
         </Marquee>
@@ -83,7 +83,7 @@ const Popular = () => {
               <div className="image_wrapper flex">
                 <img src={marque1} alt="" />
               </div>
-              <p className="artis1">SOEGI BORNEAN</p>
+              <p className="artis1">AFGAN</p>
             </div>
           </div>
           <div className="LineUP">
@@ -91,7 +91,7 @@ const Popular = () => {
               <div className="image_wrapper flex">
                 <img src={marque2} alt="" />
               </div>
-              <p className="artis2">TIARA ANDINI</p>
+              <p className="artis2">LYODRA</p>
             </div>
           </div>
           <div className="LineUP">
@@ -99,7 +99,7 @@ const Popular = () => {
               <div className="image_wrapper flex">
                 <img src={marque3} alt="" />
               </div>
-              <p className="artis3">MELANCHOLIC BITCH</p>
+              <p className="artis3">JKT 48</p>
             </div>
           </div>
           <div className="LineUP">
@@ -107,7 +107,7 @@ const Popular = () => {
               <div className="image_wrapper flex">
                 <img src={marque2} alt="" />
               </div>
-              <p className="artis4">SISITIPSI</p>
+              <p className="artis4">NIKI</p>
             </div>
           </div>
           <div className="LineUP">
@@ -115,7 +115,7 @@ const Popular = () => {
               <div className="image_wrapper flex">
                 <img src={marque4} alt="" />
               </div>
-              <div className="artis1">ISYANA SARAVASTI</div>
+              <div className="artis1">ARDHITO</div>
             </div>
           </div>
           <div className="LineUP">
@@ -123,7 +123,7 @@ const Popular = () => {
               <div className="image_wrapper flex">
                 <img src={marque3} alt="" />
               </div>
-              <p className="artis2">HIPHOP BY TUAN TIGABELAS</p>
+              <p className="artis2">SERINGAI</p>
             </div>
           </div>
         </Marquee>
@@ -144,7 +144,7 @@ const Popular = () => {
               <div className="image_wrapper flex">
                 <img src={marque2} alt="" />
               </div>
-              <p className="artis2">GUGUN BLUES SHELTER</p>
+              <p className="artis2">NIKI</p>
             </div>
           </div>
           <div className="LineUP">
@@ -152,7 +152,7 @@ const Popular = () => {
               <div className="image_wrapper flex">
                 <img src={marque3} alt="" />
               </div>
-              <p className="artis3">AFGAN</p>
+              <p className="artis3">TULUS</p>
             </div>
           </div>
           <div className="LineUP">
@@ -161,7 +161,7 @@ const Popular = () => {
                 <img src={marque2} alt="" />
               </div>
               <p className="artis4">
-                TRIBUTE TO KOES PLUS (VINCENT, DESTA, ENDAH N RHESA)
+                JKT 48
               </p>
             </div>
           </div>
@@ -170,7 +170,7 @@ const Popular = () => {
               <div className="image_wrapper flex">
                 <img src={marque4} alt="" />
               </div>
-              <div className="artis1">MONKEY TO MILLIONAIRE</div>
+              <div className="artis1">LYODRA</div>
             </div>
           </div>
           <div className="LineUP">
@@ -178,7 +178,7 @@ const Popular = () => {
               <div className="image_wrapper flex">
                 <img src={marque3} alt="" />
               </div>
-              <p className="artis2">SHAGGYDOG</p>
+              <p className="artis2">HINDIA</p>
             </div>
           </div>
         </Marquee>
