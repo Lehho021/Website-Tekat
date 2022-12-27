@@ -28,7 +28,7 @@ const Offer = [
     concertTitle: "Hola",
     location: "Aston Kemayoran City",
     price: "IDR 7500K",
-    text: "2(two) 3-Day Passes (GA/VIP) 3-nights",
+    text: "2(two) 3-Day Passes (GA/VIP) 3-nights stay",
     ticket: "Available",
   },
 

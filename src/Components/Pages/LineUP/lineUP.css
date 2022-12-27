@@ -24,17 +24,30 @@
   padding-top: 5rem;
 }
 .lineup .mainContainer .singlePost .imgDiv {
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
   height: 100%;
   width: 75%;
   border-radius: 1rem;
-  background-color: black;
   box-shadow: 0 0 6px 0.75px #ba6c90;
   overflow: hidden;
   margin-left: 3rem;
 }
 .lineup .mainContainer .singlePost .imgDiv:hover img {
   transform: scale(1.1);
-  transition: 3s ease;
+  transition: 0.6s ease-in-out;
+}
+.lineup .mainContainer .singlePost .imgDiv h4 {
+  -webkit-text-decoration: transparent;
+          text-decoration: transparent;
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background-color: black;
+  font-weight: 800px;
+  font-size: 20px;
+  text-align: center !important;
 }
 .lineup .mainContainer .singlePost .imgDiv img {
   height: 100%;
