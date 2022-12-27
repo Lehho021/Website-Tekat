@@ -25,10 +25,7 @@ const About = () => {
             >
               <h2>TEKAT TRAILER</h2>
               <p>
-                TEKAT akan akan memberi pengalaman berkonser yang tak akan terlupakan.
-                TEKAT akan memberi pengalaman konser yang terbaik sehingga, kalian bisa
-                nikmat konser dengan enjoy dan chilling dengan line up musisi papan atas
-                yang bukan kaleng-kaleng.
+              TEKAT will give you an unforgettable concert experience. TEKAT will give you the best concert experience, so you can enjoy a concert in a delicious and relaxed way with a line up of top musicians.
               </p>
             </div>
 

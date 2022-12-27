@@ -1,6 +1,6 @@
 import React from "react";
 import "./news3.css";
-import bg from "../../../Assets/grid1.png";
+import bg from "../../../Assets/grid.png";
 import { BsArrowLeftShort } from "react-icons/bs";
 
 const News3 = () => {
@@ -19,30 +19,21 @@ const News3 = () => {
 
             <div className="amenities3 flex">
               <div className="singleAmenities3 flex">
-                <span>INTRODUCING SPECIAL STAGE PERFORMANCE</span>
+                <span>INTRODUCING OUR STAGE PERFORMANCE</span>
               </div>
             </div>
             <div className="amenity3 flex">
               <div className="singleAmenity3">
                 <p>
-                  Be a part of our much-anticipated return. Djakarta Warehouse
-                  Project will be back offline, in this year’s edition will be
-                  enlivened by two special stage performance by Yellow Claw’s
-                  Label — Barong Family, which will host a special stage with
-                  super-charged sets from Euro Trash, Moksi, Jengi, Sihk, and
-                  SkySky Followed by The Darker Side — this is where you can
-                  find the best underground beats at DWP22 with an immersive
-                  experience featuring Anfisa Letyago, Shiba San, Chace,
-                  Devarra, and Kya. Moreover, it will also brighten up with the
-                  other names and surprises, in alphabetical order: Acraze,
-                  Andrew Rayel, Armin Van Buuren Cedric Gervais, DJ Snake,
-                  Gareth Emery, Hardwell, Illenium, Lost Frequencies, Madeon,
-                  Martin Garrix, Nervo, Regard, Slushii, Whethan, Yellow Claw,
-                  Zedd, Beauz, BJones, Cyberjapan, Dipha Barus, Mandy, Weird
-                  Genius, Winky Wiryawan + Osvaldo Nugroho & Sara Fajira, W.w,
-                  Alyshia, AOY, Atsy x Taner, Evan Virgan, Kenji, Kimm, Patricia
-                  Schuldtz, Six Pratama, Teddy Doox, Whisnu Santika + Liquid
-                  Silva, Mc Bam, and Mc Drewe.
+                Introducing our performances, Rich brian and Niki are artists from Indonesia who have successfully entered the international song market, Rich Brian started his fame through a song titled "Dat $tick", the song attracted a lot of listeners, especially teenagers from Indonesia. Niki Zefanya, known as NIki. "High School In Jakarta" is ready to be sung by NIki on Tekat 2023 stage.
+                </p>
+                <br></br>
+                <p>
+                Afgan, Ardhito, Ariel, Hindia, Lyodra, Pamungkas, Tiara Andini, and Tulus. Top solo singers from Indonesia who are ready to attend and enliven the Tekat 2023 concert.
+                </p>
+                <br></br>
+                <p>
+                JKT48 and Seringai as groups that are liked by Indonesian people are also ready to come to entertain us all. Prepare yourselves!
                 </p>
               </div>
             </div>

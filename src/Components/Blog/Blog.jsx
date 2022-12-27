@@ -3,9 +3,9 @@ import "./blog.css";
 
 import { BsArrowRightShort } from "react-icons/bs";
 
-import img from "../../Assets/ticket1.jpg";
-import img2 from "../../Assets/ticket1.jpg";
-import img3 from "../../Assets/ticket1.jpg";
+import img from "../../Assets/exchange.jpg";
+import img2 from "../../Assets/back.jpg";
+import img3 from "../../Assets/logo.jpg";
 import img4 from "../../Assets/ticket1.jpg";
 
 import Aos from "aos";
@@ -27,8 +27,8 @@ const Posts = [
   {
     id: 3,
     postImage: img3,
-    title: "DWP",
-    desc: "One of the biggest dance music festivals in Asia is back! Djakarta Warehouse Project will return on 9, 10, 11 Dec 2022 at JIEXPO Kemayoran.",
+    title: "WE SEREVE ONLY THE BEST",
+    desc: "Introducing our performances",
   },
 ];
 
