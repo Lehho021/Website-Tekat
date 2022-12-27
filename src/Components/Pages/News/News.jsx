@@ -62,7 +62,7 @@ const News = () => {
               <div className="amenities flex">
                 <div className="singleAmenity flex">
                   <small>
-                    TEKAT IS HERE
+                    TEKAT IS HERE PREPARE YOUR SELF
                   </small>
                 </div>
               </div>
@@ -87,8 +87,7 @@ const News = () => {
               <div className="amenities flex">
                 <div className="singleAmenity flex">
                   <small>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Laboriosam, est.
+                    WE SEREVE ONLY THE BEST 
                   </small>
                 </div>
               </div>

@@ -25,10 +25,10 @@ const About = () => {
             >
               <h2>TEKAT TRAILER</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                nulla tempore sunt nesciunt corporis, dignissimos placeat optio
-                expedita excepturi quasi ipsum ducimus? Enim, ex tempore modi
-                accusamus sit perferendis cumque!
+                TEKAT akan akan memberi pengalaman berkonser yang tak akan terlupakan.
+                TEKAT akan memberi pengalaman konser yang terbaik sehingga, kalian bisa
+                nikmat konser dengan enjoy dan chilling dengan line up musisi papan atas
+                yang bukan kaleng-kaleng.
               </p>
             </div>
 
