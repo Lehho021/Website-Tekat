@@ -4,9 +4,9 @@ import "./news.css";
 import { MdLocationOn } from "react-icons/md";
 import { BsArrowRightShort } from "react-icons/bs";
 
-import img1 from "../../../Assets/ticket1.jpg";
-import img2 from "../../../Assets/ticket1.jpg";
-import img3 from "../../../Assets/ticket1.jpg";
+import img1 from "../../../Assets/exchange.jpg";
+import img2 from "../../../Assets/back.jpg";
+import img3 from "../../../Assets/logo2.jpg";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -37,8 +37,7 @@ const News = () => {
               <div className="amenities flex">
                 <div className="singleAmenity flex">
                   <small>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Laboriosam, est.
+                    EXCHANGE YOUR E-TICKET
                   </small>
                 </div>
               </div>
@@ -56,15 +55,14 @@ const News = () => {
             className="singleNews"
           >
             <div className="newsImage">
-              <img src={img1} alt="" />
+              <img src={img2} alt="" />
             </div>
 
             <div className="offersBody">
               <div className="amenities flex">
                 <div className="singleAmenity flex">
                   <small>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Laboriosam, est.
+                    TEKAT IS HERE
                   </small>
                 </div>
               </div>
@@ -82,7 +80,7 @@ const News = () => {
             className="singleNews"
           >
             <div className="newsImage">
-              <img src={img1} alt="" />
+              <img src={img3} alt="" />
             </div>
 
             <div className="offersBody">
