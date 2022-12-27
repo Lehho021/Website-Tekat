@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./register.css";
-
 import { UserAuth } from "../../Context/AuthContext";
 
 const Register = () => {

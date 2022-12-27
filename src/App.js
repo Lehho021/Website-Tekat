@@ -23,6 +23,7 @@ import News3 from "./Components/Pages/News3/News3";
 import Login from "./Components/Auth/Login/Login";
 import Register from "./Components/Auth/Register/Register";
 import { AuthContextProvider } from "./Components/Context/AuthContext";
+import Brand from "./Components/Brand/Brand";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
             <Route component={Blog} path="/" exact />
             <Route component={Offers} path="/" exact />
             <Route component={About} path="/" exact />
+            <Route component={Brand} path="/" exact />
             <Route component={News1} path="/news1" />
             <Route component={News2} path="/news2" />
             <Route component={News3} path="/news3" />

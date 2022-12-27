@@ -85,10 +85,13 @@ const Offers = () => {
                       <small>{location}</small>
                     </div>
 
-                    <button className="btn flex">
+                    <a
+                      href="https://www.jotform.com/app/223604328714453"
+                      className="btn flex"
+                    >
                       View Details
                       <BsArrowRightShort className="icon" />
-                    </button>
+                    </a>
                   </div>
                 </div>
               );
