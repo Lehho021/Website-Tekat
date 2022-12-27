@@ -15,14 +15,14 @@ const Posts = [
   {
     id: 1,
     postImage: img,
-    title: "Joylands",
-    desc: "Joyland Festival 2023, bukan Festival yang ‘Itu-Itu Aja’. Joyland dan nama itu memang benar-benar mewakili apa yang kami rasakan selama tiga hari menghadiri salah satu festival musik garapan Plainsong Live tersebut.",
+    title: "EXCHANGE YOUR E-TICKET",
+    desc: "Read the guideline here before you exchange your e-vouchers.",
   },
   {
     id: 2,
     postImage: img2,
-    title: "Pesta Pora",
-    desc: "Pestapora adalah selebrasi terbaru pertunjukan musik Indonesia, yang diselenggarakan oleh Boss Creator. Perayaan musik pertama ini akan hadir selama tiga hari.",
+    title: "TEKAT IS HERE",
+    desc: "After the Covid-19 pandemic, we are back to entertain you all!",
   },
   {
     id: 3,

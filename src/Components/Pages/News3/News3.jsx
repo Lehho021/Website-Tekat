@@ -1,6 +1,6 @@
 import React from "react";
 import "./news3.css";
-import bg from "../../../Assets/bg.jpg";
+import bg from "../../../Assets/grid1.png";
 import { BsArrowLeftShort } from "react-icons/bs";
 
 const News3 = () => {
