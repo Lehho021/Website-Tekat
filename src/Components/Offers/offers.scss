@@ -33,8 +33,10 @@
         }
 
         small {
-          font-weight: 500;
-          color: whitesmoke;
+          font-size: 15px;
+          font-weight: 800;
+          color: black;
+          background-color: whitesmoke;
         } 
 
         .concertImage {
@@ -56,18 +58,10 @@
             justify-content: space-between;
 
             h4 {
-              color: var(--blackColor);
+              color: whitesmoke;
               font-weight: 700;
               font-size: 1.1rem;
-            }
-
-            .status {
-              padding: 5px 10px;
-              color : green;
-              background: var(--greyBg);
-              font-size: 15px;
-              font-weight: 600;
-              border-radius: 3rem;
+            
             }
           }
 
