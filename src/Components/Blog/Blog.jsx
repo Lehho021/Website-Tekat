@@ -3,9 +3,9 @@ import "./blog.css";
 
 import { BsArrowRightShort } from "react-icons/bs";
 
-import img from "../../Assets/ticket1.jpg";
-import img2 from "../../Assets/ticket1.jpg";
-import img3 from "../../Assets/ticket1.jpg";
+import img from "../../Assets/exchange.jpg";
+import img2 from "../../Assets/back.jpg";
+import img3 from "../../Assets/logo.jpg";
 import img4 from "../../Assets/ticket1.jpg";
 
 import Aos from "aos";
@@ -15,20 +15,20 @@ const Posts = [
   {
     id: 1,
     postImage: img,
-    title: "Joylands",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, modi!",
+    title: "EXCHANGE YOUR E-TICKET",
+    desc: "Read the guideline here before you exchange your e-vouchers.",
   },
   {
     id: 2,
     postImage: img2,
-    title: "Pesta Pora",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, modi!",
+    title: "TEKAT IS HERE",
+    desc: "After the Covid-19 pandemic, we are back to entertain you all!",
   },
   {
     id: 3,
     postImage: img3,
-    title: "DWP",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, modi!",
+    title: "WE SEREVE ONLY THE BEST",
+    desc: "Introducing our performances",
   },
 ];
 

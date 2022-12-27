@@ -1,6 +1,6 @@
 import React from "react";
 import "./news1.css";
-import bg from "../../../Assets/bg.jpg";
+import bg from "../../../Assets/teg.jpg";
 import { BsArrowLeftShort } from "react-icons/bs";
 
 const News1 = () => {
@@ -26,6 +26,7 @@ const News1 = () => {
               <div className="singleAmenity">
                 <p>
                   Read the guideline here before you exchange your e-vouchers.
+                  You can exchange your E-Tickets on 6, 7, 8 January 2023 at the eastern parking lot of Hartono Mall, from 11:00 - 21:00 PM (daily). Don't forget to show proof of payment and ticket barcodes to the crew
                 </p>
               </div>
             </div>

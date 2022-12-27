@@ -25,10 +25,7 @@ const About = () => {
             >
               <h2>TEKAT TRAILER</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                nulla tempore sunt nesciunt corporis, dignissimos placeat optio
-                expedita excepturi quasi ipsum ducimus? Enim, ex tempore modi
-                accusamus sit perferendis cumque!
+              TEKAT will give you an unforgettable concert experience. TEKAT will give you the best concert experience, so you can enjoy a concert in a delicious and relaxed way with a line up of top musicians.
               </p>
             </div>
 

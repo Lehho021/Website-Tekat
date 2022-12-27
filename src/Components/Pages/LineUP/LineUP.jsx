@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./lineUP.css";
 
-import mapvenue from "../../../Assets/mapvenue.jpg";
+import mapvenue from "../../../Assets/logo1.jpg";
 import tulus from "../../../Assets/tulus.jpg";
 import tiara from "../../../Assets/tiara.jpg";
 import brian from "../../../Assets/brian.jpg";
