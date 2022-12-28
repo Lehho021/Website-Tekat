@@ -7,6 +7,9 @@ import { BsArrowRightShort } from "react-icons/bs";
 import img1 from "../../Assets/ticket1.jpg";
 import img2 from "../../Assets/ticket2.jpg";
 import img3 from "../../Assets/ticket2.jpg";
+import img4 from "../../Assets/ticket4.jpg";
+import img5 from "../../Assets/ticket5.jpg";
+import img6 from "../../Assets/ticket6.jpg";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -14,7 +17,7 @@ import "aos/dist/aos.css";
 const Offer = [
   {
     id: 1,
-    imgSrc: img1,
+    imgSrc: img4,
     concertTitle: "Hola",
     price: "IDR 8800K",
     text: "PLATINUM PRESALE PACKAGE",
@@ -22,7 +25,7 @@ const Offer = [
 
   {
     id: 2,
-    imgSrc: img2,
+    imgSrc: img5,
     concertTitle: "Hola",
     price: "IDR 3200K",
     text: "GOLD PRESALE PACKAGE",
@@ -30,14 +33,14 @@ const Offer = [
 
   {
     id: 3,
-    imgSrc: img3,
+    imgSrc: img6,
     concertTitle: "Hola",
     price: "IDR 1660K",
     text: "SILVER PRESALE PACKAGE",
   },
   {
     id: 4,
-    imgSrc: img1,
+    imgSrc: img4,
     concertTitle: "Hola",
     price: "IDR 1520K",
     text: "BRONZE PRESALE PACKAGE",
@@ -45,7 +48,7 @@ const Offer = [
 
   {
     id: 5,
-    imgSrc: img2,
+    imgSrc: img5,
     concertTitle: "Hola",
     price: "IDR 1460K",
     text: "VIP (DAILY PASS) EARLY ENTRY",
@@ -53,7 +56,7 @@ const Offer = [
 
   {
     id: 6,
-    imgSrc: img3,
+    imgSrc: img6,
     concertTitle: "Hola",
     location: "Grand Orchard Kemayoran",
     price: "IDR 720K",
